@@ -1,0 +1,131 @@
+body{
+    width: 900px;
+    height: 640px;
+    margin: 0 auto;
+    border: 1px solid #094a61;
+    background-color: azure ;
+   }
+
+.head_top{
+    margin-bottom: 5px;
+    position: relative;
+    width: 900px;
+    height: 640px;
+}
+.perv{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  padding: 10px;
+  margin-top: -22px;
+  color: #66d2f3;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  position: absolute;
+  left: 0;
+}
+.nex{
+    cursor: pointer;
+    position: absolute;
+    width: 10px;
+    padding: 10px;
+    margin-top: -22px;
+    color: #66d2f3;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+ /*Nut nhỏ dưới slide*/
+.dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #7fdbee;
+    position: absolute;
+    bottom: 10px;
+    left: 46%;
+  }
+  .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #7fdbee;
+    position: absolute;
+    bottom: 10px;
+    left: 49%;
+  }
+  .dot3 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #7fdbee;
+    position: absolute;
+    bottom: 10px;
+    left: 52%;
+  }
+  .dot4 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #7fdbee;
+    position: absolute;
+    bottom: 10px;
+    left: 55%;
+  }
+  .dot5 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #7fdbee;
+    position: absolute;
+    bottom: 10px;
+    left: 58%;
+  }
+  .dot6 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #7fdbee;
+    position: absolute;
+    bottom: 10px;
+    left: 61%;
+  }
+  .dot1:hover{ background-color: #63fbaa;}
+  .dot2:hover{ background-color: #63fbaa;} 
+  .dot3:hover{ background-color: #63fbaa;} 
+  .dot4:hover{ background-color: #63fbaa;} 
+  .dot5:hover{ background-color: #63fbaa;}
+  .dot6:hover{ background-color: #63fbaa;}

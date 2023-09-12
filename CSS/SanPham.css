@@ -1,0 +1,16 @@
+body{
+    max-width: 923px;
+    height: 650px;
+    margin: 5px 0px 5px 0;
+    border: 1px solid #094a61;
+    background-color: azure ;
+   }
+   .sp1{
+      float: left;
+      width: 280px;
+      height: 280px;
+      border: 1px solid #17a0d2;
+      margin: 10px 8px 8px 10px;
+   }
+
+   

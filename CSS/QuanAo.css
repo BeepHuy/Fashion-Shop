@@ -1,0 +1,72 @@
+body{
+    max-width: 923px;
+    height: 1010px;
+    margin: 5px 5px 5px 0;
+    border: 1px solid #094a61;
+    background-color: azure ;
+   }
+   .sp1{
+       float: left;
+       width: 280px;
+       height: 300px;
+       border: 1px solid #17a0d2;
+      margin: 10px 8px 8px 10px;
+   }
+   .sp2{
+     float: left;
+     width: 280px;
+     height: 300px;
+     border: 1px solid #17a0d2;
+     margin: 10px 8px 8px 8px;
+   }
+   .sp3{
+     float: left;
+     width: 280px;
+     height: 300px;
+     border: 1px solid #17a0d2;
+     margin: 10px 0px 8px 9px;
+   }
+   .sp4{
+     float: left;
+     width: 280px;
+     height: 300px;
+     border: 1px solid #17a0d2;
+     margin: 26px 8px 8px 10px;
+   }
+   .sp5{
+     float: left;
+     width: 280px;
+     height: 300px;
+     border: 1px solid #17a0d2;
+     margin: 26px 10px 8px 9px;
+   }
+   .sp6{
+     float: left;
+     width: 280px;
+     height: 300px;
+     border: 1px solid #17a0d2;
+     margin: 26px 0px 8px 9px;
+   }
+   .sp7{
+    float: left;
+     width: 280px;
+     height: 300px;
+     border: 1px solid #17a0d2;
+     margin: 26px 8px 8px 10px;
+  }
+  .sp8{
+    float: left;
+     width: 280px;
+     height: 300px;
+     border: 1px solid #17a0d2;
+     margin: 26px 10px 8px 9px;
+  }
+  .sp9{
+    float: left;
+    width: 280px;
+    height: 300px;
+    border: 1px solid #17a0d2;
+    margin: 26px 0px 8px 9px;
+  }
+
+   

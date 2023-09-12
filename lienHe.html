@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PD05505_LoveLyKiuXo</title>
+    <link rel="stylesheet" href="CSS/form-DangKy.css">
+</head>
+<body>
+    <body>
+        <div class="main">
+            <form action="" method="POST" class="form" id="form-1">
+              <h3 class="heading">Liên Hệ</h3>
+      
+              <div class="form-group">
+                <label for="fullname" class="form-label">Họ Tên</label>
+                <input id="fullname" name="fullname" type="text" placeholder="VD: Hoàng Quang Huy" class="form-control">
+                <span class="form-message"></span>
+              </div>
+      
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text" placeholder="VD: email@gmail.com" class="form-control">
+                <span class="form-message"></span>
+              </div>
+    
+              <div class="form-group">
+                <label for="sdt" class="form-label">SDT</label>
+                <input id="sdt" name="sdt" type="text" placeholder="VD: 0923456789" class="form-control">
+                <span class="form-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="gchu" class="form-label">Ghi Chú</label>
+                <textarea name="gchu" id="gchu" cols="50" rows="5" placeholder="Ghi chú"></textarea>
+                <span class="form-message"></span>
+              </div>
+      
+             
+      
+              <button class="form-submit" >Gửi Đi</button>
+            </form>
+      
+      
+          </div>
+          <!--js-->
+          <script src="JS/lienHe.js"></script>
+          <script>
+      
+            validator({
+              form: '#form-1',
+              errorSelector: '.form-message',
+              rules: [
+                validator.isRequired('#fullname'),
+                validator.isEmail('#email'),
+                validator.isSdt('#sdt'),
+                validator.isGhiChu('#gchu'),
+              ]
+            });
+      
+          </script>
+          
+    </body>
+</body>
+</html>
